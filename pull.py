@@ -18,7 +18,7 @@ sensor = 4
 
 try:
         [temp,humidity] = grovepi.dht(sensor,1)
-        print humidity 
+        print temp 
 
 except IOError:
         print "Error"
